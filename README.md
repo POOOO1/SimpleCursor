@@ -1,4 +1,10 @@
 # SimpleCursor
+#CREATE TABLE `users` (
+    `_id`   INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    `name`  TEXT NOT NULL,
+    `year`  INTEGER NOT NULL
+);
+
 Здесь используется класс CursorAdapter. 
 "
 userAdapter = new SimpleCursorAdapter(this, android.R.layout.two_line_list_item,
